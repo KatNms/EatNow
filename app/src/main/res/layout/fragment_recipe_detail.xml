@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/viewRecipeImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="5dp"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/viewRecipeImage"
+                android:layout_alignBottom="@id/viewRecipeImage">
+
+                <TextView
+                    android:id="@+id/viewRecipeTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorAccent"
+                    android:padding="5dp"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/editButton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@id/deleteButton"
+                    android:background="@color/colorAccent"
+                    android:foreground="@android:drawable/ic_menu_edit" />
+
+                <ImageButton
+                    android:id="@+id/deleteButton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+
+                    android:background="@color/colorAccent"
+                    android:foreground="@android:drawable/ic_menu_delete" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/categoryHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/categoryheader" />
+
+                <TextView
+                    android:id="@+id/viewCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFF" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/servingheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/servingheader" />
+
+                <TextView
+                    android:id="@+id/viewServing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFF" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/preptimeHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/preptimeheader" />
+
+                <TextView
+                    android:id="@+id/viewPreptime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFF" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/cooktimeheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/cooktimeheader" />
+
+                <TextView
+                    android:id="@+id/viewCookTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFF" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ingredientheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/ingredientheader" />
+
+                <TextView
+                    android:id="@+id/viewIngredient"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFFF" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/instructionsheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/instructionheader" />
+
+                <TextView
+                    android:id="@+id/viewInstruction"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="#FFF"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+        </TableLayout>
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</layout>

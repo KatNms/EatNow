@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "933490156168",
+    "firebase_url": "https://eatnow-679a6.firebaseio.com",
+    "project_id": "eatnow-679a6",
+    "storage_bucket": "eatnow-679a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933490156168:android:0ed4df0a241f0fae",
+        "android_client_info": {
+          "package_name": "com.recipebook.eatnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933490156168-id88qboaikntgulkv9en736q5rf9682b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuzSd9kNgsB4W03bSmTi94fDoCMa7B5uw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

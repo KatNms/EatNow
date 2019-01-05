@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+
+    <Button
+        android:id="@+id/sign_up_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="212dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/action_sign_in_short"
+        android:textColor="@color/text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="178dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="267dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:gravity="center"
+        android:text="To create an account, please enter your email and password"
+        android:textColor="@color/text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+
+</RelativeLayout>
