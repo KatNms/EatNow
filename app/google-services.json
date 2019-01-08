@@ -1,8 +1,8 @@
 {
   "project_info": {
-    "project_number": "933490156168",
+    "project_number": "#####",
     "firebase_url": "https://eatnow-679a6.firebaseio.com",
-    "project_id": "eatnow-679a6",
+    "project_id": "eatnow",
     "storage_bucket": "eatnow-679a6.appspot.com"
   },
   "client": [
@@ -21,7 +21,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBuzSd9kNgsB4W03bSmTi94fDoCMa7B5uw"
+          "current_key": "#########"
         }
       ],
       "services": {
